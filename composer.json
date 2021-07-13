@@ -1,0 +1,12 @@
+{
+    "name": "vlad/skill-factory",
+    "authors": [
+        {
+            "name": "Vladislav Rubanovich",
+            "email": "rubanovich@prestoheads.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "6.0"
+    }
+}
