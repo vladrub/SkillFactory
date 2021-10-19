@@ -1,0 +1,16 @@
+- hosts: remote
+  gather_facts: no
+  become: yes
+
+  tasks:
+    - name: install postfix
+      apt:
+        name: postfix
+        update_cache: yes
+      tags: init
+
+    - name: Remove postfix
+      apt:
+        name: postfix
+        state: absent
+      tags: drop
